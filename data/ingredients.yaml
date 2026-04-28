@@ -1,0 +1,162 @@
+# Ingredients we cook with. `id` is referenced from recipes/*.md.
+# `available_at` lists supermarket ids (see data/supermarkets.yaml) that stock it.
+# `category` is a rough grouping for display only.
+
+ingredients:
+  # --- pantry staples (stocked almost everywhere) ---
+  - id: olive_oil
+    name: Olive oil
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: salt
+    name: Salt
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: black_pepper
+    name: Black pepper
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: butter
+    name: Butter
+    category: dairy
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: egg
+    name: Eggs
+    category: dairy
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+
+  # --- grains & bread ---
+  - id: rice
+    name: White rice
+    category: grain
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: spaghetti
+    name: Spaghetti
+    category: grain
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: bread
+    name: Bread
+    category: grain
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: arborio_rice
+    name: Arborio rice
+    category: grain
+    # Specialty — not at Safeway or Costco in most regions
+    available_at: [whole_foods, trader_joes, amazon_fresh]
+
+  # --- produce ---
+  - id: garlic
+    name: Garlic
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: onion
+    name: Yellow onion
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: bell_pepper
+    name: Bell pepper
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: broccoli
+    name: Broccoli
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: mushrooms
+    name: Mushrooms
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: romaine_lettuce
+    name: Romaine lettuce
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: cilantro
+    name: Cilantro
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: parsley
+    name: Parsley
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: ginger
+    name: Fresh ginger
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: lemon
+    name: Lemon
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: lime
+    name: Lime
+    category: produce
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+
+  # --- proteins ---
+  - id: chicken_breast
+    name: Chicken breast
+    category: protein
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: ground_beef
+    name: Ground beef
+    category: protein
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+
+  # --- dairy ---
+  - id: cheddar
+    name: Cheddar cheese
+    category: dairy
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: parmesan
+    name: Parmesan cheese
+    category: dairy
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: sour_cream
+    name: Sour cream
+    category: dairy
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+
+  # --- specialty / ethnic pantry ---
+  - id: soy_sauce
+    name: Soy sauce
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: sesame_oil
+    name: Sesame oil
+    category: pantry
+    available_at: [whole_foods, trader_joes, amazon_fresh]
+  - id: red_pepper_flakes
+    name: Red pepper flakes
+    category: pantry
+    available_at: [whole_foods, safeway, amazon_fresh]
+  - id: canned_tomatoes
+    name: Canned tomatoes
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, costco, amazon_fresh]
+  - id: coconut_milk
+    name: Coconut milk
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: curry_powder
+    name: Curry powder
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: taco_shells
+    name: Taco shells
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: taco_seasoning
+    name: Taco seasoning
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: white_wine
+    name: Dry white wine
+    category: pantry
+    # Alcohol — limited distribution; not on Amazon Fresh everywhere
+    available_at: [whole_foods, safeway]
+  - id: vegetable_stock
+    name: Vegetable stock
+    category: pantry
+    available_at: [whole_foods, trader_joes, safeway, amazon_fresh]
+  - id: anchovies
+    name: Anchovies
+    category: pantry
+    available_at: [whole_foods, safeway, amazon_fresh]
