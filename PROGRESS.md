@@ -4,6 +4,7 @@
 
 - [x] 2026-04-27 — Project scaffolded: `cooking_planner.py`, `data/` files, 6 sample recipes, `pantry.yaml`
 - [x] 2026-04-27 — Claude Code configuration: `CLAUDE.md` rules, skills (`/add-recipe`, `/progress`, `/commit`), `recipe-researcher` subagent, `docs/`
+- [x] 2026-04-27 — Added `help` subcommand with plain-language guide to all commands; deferred PyYAML import so `help` works without the dependency installed
 
 ## Next
 
