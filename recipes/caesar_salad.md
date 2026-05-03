@@ -1,23 +1,22 @@
 ---
-id: caesar_salad
-name: Caesar Salad
-servings: 2
-tags:
-  complexity: simple
-  time_minutes: 15
-  cuisine: american
-  meal_type: dinner
-source: null
-ingredients:
-  - { id: romaine_lettuce, quantity: 1 head }
-  - { id: parmesan,        quantity: 50 g }
-  - { id: anchovies,       quantity: 4 fillets }
-  - { id: garlic,          quantity: 1 clove }
-  - { id: lemon,           quantity: 1 }
-  - { id: egg,             quantity: 1 yolk }
-  - { id: bread,           quantity: 2 slices }
-  - { id: olive_oil,       quantity: 3 tbsp }
-  - { id: black_pepper,    quantity: to taste }
+{
+  "id": "caesar_salad",
+  "name": "Caesar Salad",
+  "servings": 2,
+  "tags": { "complexity": "simple", "time_minutes": 15, "cuisine": "american", "meal_type": "dinner" },
+  "source": null,
+  "ingredients": [
+    { "id": "romaine_lettuce", "quantity": "1 head" },
+    { "id": "parmesan",        "quantity": "50 g" },
+    { "id": "anchovies",       "quantity": "4 fillets" },
+    { "id": "garlic",          "quantity": "1 clove" },
+    { "id": "lemon",           "quantity": "1" },
+    { "id": "egg",             "quantity": "1 yolk" },
+    { "id": "bread",           "quantity": "2 slices" },
+    { "id": "olive_oil",       "quantity": "3 tbsp" },
+    { "id": "black_pepper",    "quantity": "to taste" }
+  ]
+}
 ---
 
 ## Instructions

@@ -1,25 +1,24 @@
 ---
-id: chicken_curry
-name: Chicken Curry
-servings: 4
-tags:
-  complexity: medium
-  time_minutes: 60
-  cuisine: indian
-  meal_type: dinner
-source: null
-ingredients:
-  - { id: chicken_breast,  quantity: 600 g }
-  - { id: onion,           quantity: 2 }
-  - { id: garlic,          quantity: 4 cloves }
-  - { id: ginger,          quantity: 1 tbsp grated }
-  - { id: curry_powder,    quantity: 2 tbsp }
-  - { id: canned_tomatoes, quantity: 1 can (400 g) }
-  - { id: coconut_milk,    quantity: 1 can (400 ml) }
-  - { id: rice,            quantity: 2 cups }
-  - { id: cilantro,        quantity: 1 small bunch }
-  - { id: olive_oil,       quantity: 2 tbsp }
-  - { id: salt,            quantity: to taste }
+{
+  "id": "chicken_curry",
+  "name": "Chicken Curry",
+  "servings": 4,
+  "tags": { "complexity": "medium", "time_minutes": 60, "cuisine": "indian", "meal_type": "dinner" },
+  "source": null,
+  "ingredients": [
+    { "id": "chicken_breast",  "quantity": "600 g" },
+    { "id": "onion",           "quantity": "2" },
+    { "id": "garlic",          "quantity": "4 cloves" },
+    { "id": "ginger",          "quantity": "1 tbsp grated" },
+    { "id": "curry_powder",    "quantity": "2 tbsp" },
+    { "id": "canned_tomatoes", "quantity": "1 can (400 g)" },
+    { "id": "coconut_milk",    "quantity": "1 can (400 ml)" },
+    { "id": "rice",            "quantity": "2 cups" },
+    { "id": "cilantro",        "quantity": "1 small bunch" },
+    { "id": "olive_oil",       "quantity": "2 tbsp" },
+    { "id": "salt",            "quantity": "to taste" }
+  ]
+}
 ---
 
 ## Instructions

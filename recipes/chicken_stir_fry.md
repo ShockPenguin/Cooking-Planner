@@ -1,23 +1,22 @@
 ---
-id: chicken_stir_fry
-name: Chicken Stir Fry
-servings: 4
-tags:
-  complexity: simple
-  time_minutes: 30
-  cuisine: asian
-  meal_type: dinner
-source: null
-ingredients:
-  - { id: chicken_breast, quantity: 500 g }
-  - { id: soy_sauce,      quantity: 3 tbsp }
-  - { id: garlic,         quantity: 3 cloves }
-  - { id: ginger,         quantity: 1 tbsp grated }
-  - { id: bell_pepper,    quantity: 1 }
-  - { id: broccoli,       quantity: 1 head }
-  - { id: sesame_oil,     quantity: 1 tbsp }
-  - { id: rice,           quantity: 2 cups }
-  - { id: salt,           quantity: to taste }
+{
+  "id": "chicken_stir_fry",
+  "name": "Chicken Stir Fry",
+  "servings": 4,
+  "tags": { "complexity": "simple", "time_minutes": 30, "cuisine": "asian", "meal_type": "dinner" },
+  "source": null,
+  "ingredients": [
+    { "id": "chicken_breast", "quantity": "500 g" },
+    { "id": "soy_sauce",      "quantity": "3 tbsp" },
+    { "id": "garlic",         "quantity": "3 cloves" },
+    { "id": "ginger",         "quantity": "1 tbsp grated" },
+    { "id": "bell_pepper",    "quantity": "1" },
+    { "id": "broccoli",       "quantity": "1 head" },
+    { "id": "sesame_oil",     "quantity": "1 tbsp" },
+    { "id": "rice",           "quantity": "2 cups" },
+    { "id": "salt",           "quantity": "to taste" }
+  ]
+}
 ---
 
 ## Instructions

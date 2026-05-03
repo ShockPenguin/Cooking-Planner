@@ -1,26 +1,25 @@
 ---
-id: mushroom_risotto
-name: Mushroom Risotto
-servings: 4
-tags:
-  complexity: complex
-  time_minutes: 45
-  cuisine: italian
-  meal_type: dinner
-source: null
-ingredients:
-  - { id: arborio_rice,    quantity: 1.5 cups }
-  - { id: mushrooms,       quantity: 400 g }
-  - { id: onion,           quantity: 1 }
-  - { id: garlic,          quantity: 2 cloves }
-  - { id: white_wine,      quantity: 1/2 cup }
-  - { id: vegetable_stock, quantity: 1 L }
-  - { id: butter,          quantity: 3 tbsp }
-  - { id: parmesan,        quantity: 80 g }
-  - { id: parsley,         quantity: 1 small bunch }
-  - { id: olive_oil,       quantity: 2 tbsp }
-  - { id: salt,            quantity: to taste }
-  - { id: black_pepper,    quantity: to taste }
+{
+  "id": "mushroom_risotto",
+  "name": "Mushroom Risotto",
+  "servings": 4,
+  "tags": { "complexity": "complex", "time_minutes": 45, "cuisine": "italian", "meal_type": "dinner" },
+  "source": null,
+  "ingredients": [
+    { "id": "arborio_rice",    "quantity": "1.5 cups" },
+    { "id": "mushrooms",       "quantity": "400 g" },
+    { "id": "onion",           "quantity": "1" },
+    { "id": "garlic",          "quantity": "2 cloves" },
+    { "id": "white_wine",      "quantity": "1/2 cup" },
+    { "id": "vegetable_stock", "quantity": "1 L" },
+    { "id": "butter",          "quantity": "3 tbsp" },
+    { "id": "parmesan",        "quantity": "80 g" },
+    { "id": "parsley",         "quantity": "1 small bunch" },
+    { "id": "olive_oil",       "quantity": "2 tbsp" },
+    { "id": "salt",            "quantity": "to taste" },
+    { "id": "black_pepper",    "quantity": "to taste" }
+  ]
+}
 ---
 
 ## Instructions

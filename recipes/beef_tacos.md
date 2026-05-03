@@ -1,23 +1,22 @@
 ---
-id: beef_tacos
-name: Beef Tacos
-servings: 4
-tags:
-  complexity: simple
-  time_minutes: 30
-  cuisine: mexican
-  meal_type: dinner
-source: null
-ingredients:
-  - { id: ground_beef,     quantity: 500 g }
-  - { id: taco_shells,     quantity: 8 }
-  - { id: onion,           quantity: 1 }
-  - { id: garlic,          quantity: 2 cloves }
-  - { id: taco_seasoning,  quantity: 1 packet }
-  - { id: cheddar,         quantity: 150 g }
-  - { id: sour_cream,      quantity: 1/2 cup }
-  - { id: romaine_lettuce, quantity: 1/2 head }
-  - { id: lime,            quantity: 1 }
+{
+  "id": "beef_tacos",
+  "name": "Beef Tacos",
+  "servings": 4,
+  "tags": { "complexity": "simple", "time_minutes": 30, "cuisine": "mexican", "meal_type": "dinner" },
+  "source": null,
+  "ingredients": [
+    { "id": "ground_beef",     "quantity": "500 g" },
+    { "id": "taco_shells",     "quantity": "8" },
+    { "id": "onion",           "quantity": "1" },
+    { "id": "garlic",          "quantity": "2 cloves" },
+    { "id": "taco_seasoning",  "quantity": "1 packet" },
+    { "id": "cheddar",         "quantity": "150 g" },
+    { "id": "sour_cream",      "quantity": "1/2 cup" },
+    { "id": "romaine_lettuce", "quantity": "1/2 head" },
+    { "id": "lime",            "quantity": "1" }
+  ]
+}
 ---
 
 ## Instructions

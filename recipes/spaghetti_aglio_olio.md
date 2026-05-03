@@ -1,21 +1,20 @@
 ---
-id: spaghetti_aglio_olio
-name: Spaghetti Aglio e Olio
-servings: 2
-tags:
-  complexity: simple
-  time_minutes: 15
-  cuisine: italian
-  meal_type: dinner
-source: null
-ingredients:
-  - { id: spaghetti,         quantity: 200 g }
-  - { id: olive_oil,         quantity: 4 tbsp }
-  - { id: garlic,            quantity: 4 cloves }
-  - { id: red_pepper_flakes, quantity: 1 tsp }
-  - { id: parsley,           quantity: 1 small bunch }
-  - { id: salt,              quantity: to taste }
-  - { id: black_pepper,      quantity: to taste }
+{
+  "id": "spaghetti_aglio_olio",
+  "name": "Spaghetti Aglio e Olio",
+  "servings": 2,
+  "tags": { "complexity": "simple", "time_minutes": 15, "cuisine": "italian", "meal_type": "dinner" },
+  "source": null,
+  "ingredients": [
+    { "id": "spaghetti",         "quantity": "200 g" },
+    { "id": "olive_oil",         "quantity": "4 tbsp" },
+    { "id": "garlic",            "quantity": "4 cloves" },
+    { "id": "red_pepper_flakes", "quantity": "1 tsp" },
+    { "id": "parsley",           "quantity": "1 small bunch" },
+    { "id": "salt",              "quantity": "to taste" },
+    { "id": "black_pepper",      "quantity": "to taste" }
+  ]
+}
 ---
 
 ## Instructions

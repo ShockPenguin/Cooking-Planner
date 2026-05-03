@@ -47,24 +47,31 @@
 - When stuck, maintain a running doc of attempts in PROGRESS.md
 
 ## Run Commands
-- Run the tool: `python cooking_planner.py <command>` — commands: `suggest`, `shop`, `show`, `list`
+- Run the tool: `python3 cooking_planner.py <command>`
+  - Commands: `suggest`, `shop`, `show`, `list`, `stock`, `unstock`, `new-ingredient`, `help`
 - Run tests: `pytest -q`
-- Install deps: `pip install -r requirements.txt`
+- No deps to install — stdlib only (`requirements.txt` is a placeholder)
 
 ## Project Layout
 - `cooking_planner.py` — all CLI logic; single entry point
-- `data/` — ingredients, supermarkets, recipe_sources (YAML master lists)
-- `recipes/` — one `.md` file per recipe; YAML frontmatter + markdown body
-- `pantry.yaml` — current pantry contents + store preferences
+- `data/` — `ingredients.json`, `supermarkets.json`, `recipe_sources.json` (JSON master lists)
+- `recipes/` — one `.md` file per recipe; JSON frontmatter + markdown body
+- `pantry.json` — current pantry contents + store preferences
+- `tests/` — integration tests (run with `pytest -q`)
 - `docs/` — architecture notes and schema references
 
 See @docs/architecture.md for data flow. See @docs/recipe-schema.md for frontmatter spec.
+
+## Data Model Notes
+- **ref_id pattern**: stores in `supermarkets.json` have a numeric `ref_id`; ingredients in `ingredients.json` reference stores by those numbers in `available_at`. `load_all()` resolves them to string store IDs at load time — all downstream code sees strings only.
+- **No external dependencies**: PyYAML was intentionally removed. Everything uses the stdlib `json` module. Do not reintroduce third-party packages without a strong reason.
+- **Test recipe isolation**: test recipes use `"cuisine": "test"` in their tags. Pass `--cuisine test` to `suggest` to see only test recipes without interference from real ones.
 
 ## Recipe Rules
 - **Never modify an existing `recipes/*.md` file** without explicit user permission in the current message.
 - **Always label AI-generated content** with a visible banner when Claude writes or interprets recipe content:
   `⚠️  [AI-GENERATED] Recipe content was produced by Claude. Review before trusting.`
-- Every ingredient `id` in a recipe must exist in `data/ingredients.yaml` before the recipe is written.
+- Every ingredient `id` in a recipe must exist in `data/ingredients.json` before the recipe is written.
 
 ## Communication Style
 - One sentence of intent before acting, then act. No post-action summary.

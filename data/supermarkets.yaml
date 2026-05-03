@@ -1,9 +1,0 @@
-# Where we can buy ingredients. Add or remove freely; ids are referenced
-# from data/ingredients.yaml (`available_at`) and pantry.yaml (`available_supermarkets`).
-
-supermarkets:
-  - { id: whole_foods,  name: Whole Foods,   type: physical }
-  - { id: trader_joes,  name: Trader Joe's,  type: physical }
-  - { id: safeway,      name: Safeway,       type: physical }
-  - { id: costco,       name: Costco,        type: bulk     }
-  - { id: amazon_fresh, name: Amazon Fresh,  type: online   }

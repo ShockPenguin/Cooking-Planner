@@ -1,1 +1,1 @@
-PyYAML>=6.0
+# No external dependencies — standard library only.
