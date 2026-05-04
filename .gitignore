@@ -1,2 +1,6 @@
-test_file_to_ignore.txt
+
 __pycache__/
+*.pyc
+.DS_Store
+CLAUDE.local.md
+test_logs/

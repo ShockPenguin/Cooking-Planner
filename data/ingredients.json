@@ -1,0 +1,457 @@
+{
+  "ingredients": [
+    {
+      "id": "butter",
+      "name": "Butter",
+      "category": "dairy",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "have": true
+    },
+    {
+      "id": "egg",
+      "name": "Eggs",
+      "category": "dairy",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "have": true
+    },
+    {
+      "id": "cheddar",
+      "name": "Cheddar cheese",
+      "category": "dairy",
+      "available_at": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "parmesan",
+      "name": "Parmesan cheese",
+      "category": "dairy",
+      "available_at": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "sour_cream",
+      "name": "Sour cream",
+      "category": "dairy",
+      "available_at": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "soy_milk",
+      "name": "Soy milk",
+      "category": "dairy",
+      "available_at": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "White rice",
+      "category": "grain",
+      "available_at": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "have": true
+    },
+    {
+      "id": "spaghetti",
+      "name": "Spaghetti",
+      "category": "grain",
+      "available_at": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "category": "grain",
+      "available_at": [
+        1,
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "arborio_rice",
+      "name": "Arborio rice",
+      "category": "grain",
+      "available_at": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "olive_oil",
+      "name": "Olive oil",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2
+      ],
+      "have": true
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "have": true
+    },
+    {
+      "id": "black_pepper",
+      "name": "Black pepper",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "have": true
+    },
+    {
+      "id": "soy_sauce",
+      "name": "Soy sauce",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "sesame_oil",
+      "name": "Sesame oil",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "red_pepper_flakes",
+      "name": "Red pepper flakes",
+      "category": "pantry",
+      "available_at": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "canned_tomatoes",
+      "name": "Canned tomatoes",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coconut_milk",
+      "name": "Coconut milk",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "curry_powder",
+      "name": "Curry powder",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "taco_shells",
+      "name": "Taco shells",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "taco_seasoning",
+      "name": "Taco seasoning",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "white_wine",
+      "name": "Dry white wine",
+      "category": "pantry",
+      "available_at": [
+        1
+      ]
+    },
+    {
+      "id": "vegetable_stock",
+      "name": "Vegetable stock",
+      "category": "pantry",
+      "available_at": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "anchovies",
+      "name": "Anchovies",
+      "category": "pantry",
+      "available_at": [
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "have": true
+    },
+    {
+      "id": "onion",
+      "name": "Yellow onion",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "have": true
+    },
+    {
+      "id": "scallion",
+      "name": "Scallion",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "have": true
+    },
+    {
+      "id": "bell_pepper",
+      "name": "Bell pepper",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "mushrooms",
+      "name": "Mushrooms",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "romaine_lettuce",
+      "name": "Romaine lettuce",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "cilantro",
+      "name": "Cilantro",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "parsley",
+      "name": "Parsley",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "Fresh ginger",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "lime",
+      "name": "Lime",
+      "category": "produce",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "chicken_breast",
+      "name": "Chicken breast",
+      "category": "protein",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "id": "ground_beef",
+      "name": "Ground beef",
+      "category": "protein",
+      "available_at": [
+        1,
+        2,
+        3,
+        4,
+        8
+      ]
+    }
+  ]
+}

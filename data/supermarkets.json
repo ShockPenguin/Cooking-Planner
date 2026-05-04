@@ -1,0 +1,12 @@
+{
+  "supermarkets": [
+    { "id": "whole_foods",    "name": "Whole Foods",    "type": "physical", "ref_id": 1 },
+    { "id": "trader_joes",    "name": "Trader Joe's",   "type": "physical", "ref_id": 2 },
+    { "id": "h_mart",         "name": "H-Mart",         "type": "physical", "ref_id": 3 },
+    { "id": "farm_to_people", "name": "Farm to People", "type": "online",   "ref_id": 4 },
+    { "id": "weee",           "name": "Weee",           "type": "online",   "ref_id": 5 },
+    { "id": "good_fortune",   "name": "Good Fortune",   "type": "physical", "ref_id": 6 },
+    { "id": "sunrise",        "name": "Sunrise",        "type": "physical", "ref_id": 7 },
+    { "id": "ends_meat",      "name": "Ends' Meat",     "type": "physical", "ref_id": 8 }
+  ]
+}
